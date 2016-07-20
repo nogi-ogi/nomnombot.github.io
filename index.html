@@ -1,46 +1,20 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html lang="en" class="ie6" > <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="ie7" > <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="ie8" > <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="ie9" > <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="" > <!--<![endif]-->
+<html xmlns:ng="http://angularjs.org">
 <head>
-  <meta charset="utf-8">
-  <title>Kanban app</title>
+	<base href="/">
+	<meta charset="utf-8">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
-  
-
-  
-  <link href="style.9c3c37a72b916780aa38.css" rel="stylesheet">
-  
-
-  
-
-</head>
-<body>
+	<title>Weather App</title>
 
 
+<link href="style.css" rel="stylesheet"></head>
 
-<div id="app"></div>
-
-
-
-
-
-
-
-<script src="manifest.a73d8a82b22020e26b7d.js"></script>
-
-<script src="vendor.737a1641e3d3cec4a08d.js"></script>
-
-<script src="style.9c3c37a72b916780aa38.js"></script>
-
-<script src="app.98ff978865dad87429f2.js"></script>
-
-
-
-
-
-</body>
+<body ng-app="appNomin">
+	<div>
+		<ui-view></ui-view>
+	</div>
+<script type="text/javascript" src="manifest.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="style.js"></script><script type="text/javascript" src="app.js"></script></body>
 </html>
